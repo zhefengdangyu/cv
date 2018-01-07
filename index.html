@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>许宗平个人简历</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+  <script src="static/js/script.js"></script>
+</head>
+
+<body>
+  <div class="container" id="cv">
+    <div class="side">
+      <div class="me">
+        <div class="portrait"></div>
+        <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+        </div>
+        <h4 id="username">应聘职位</h4>
+        <h4 id="persona-tag">前端开发工程师</h4>
+      </div>
+      <div class="profile info-unit">
+        <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+        <hr>
+        <ul class="info-list">
+          <li>
+            <label class="left-label">姓名</label><span class="label-value">许宗平</span></li>
+          <li>
+            <label class="left-label">最高学历</label><span class="label-value">硕士</span></li>
+          <li>
+            <label class="left-label">毕业院校</label><span class="label-value">南京大学</span></li>
+          <li>
+            <label class="left-label">毕业年份</label><span class="label-value">2016</span></li>
+        </ul>
+      </div>
+      <div class="contact info-unit">
+        <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+        <hr>
+        <ul class="info-list">
+          <li>
+            <label class="left-label">手机</label><span class="label-value">15267482310</span></li>
+          <li>
+            <label class="left-label">邮箱</label><span class="label-value">1017448259@qq.com</span></li>
+          <!--<li>
+                        <label class="left-label">个人主页</label><span class="label-value">exit-tixe.me</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/ekCit</span></li>-->
+        </ul>
+      </div>
+      <div class="skill info-unit">
+        <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+        <hr>
+        <ul class="progress-list">
+          <li>
+            <label class="left-label">Angular</label>
+            <progress value="80" max="100"></progress>
+          </li>
+          <li>
+            <label class="left-label">Javascript</label>
+            <progress value="80" max="100"></progress>
+          </li>
+          <li>
+            <label class="left-label">html/css</label>
+            <progress value="70" max="100"></progress>
+          </li>
+          <li>
+            <label class="left-label">计算机视觉</label>
+            <progress value="60" max="100"></progress>
+          </li>
+        </ul>
+      </div>
+      <div class="stack info-unit">
+        <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+        <hr>
+        <ul class="stack-list">
+          <li>
+            <label class="left-label">前端</label><span class="label-value">jQuery、Angular、Ionic</span></li>
+          </li>
+          <li>
+            <label class="left-label">后端</label><span class="label-value">Linux、C++、Node.js、MySQL</span></li>
+          </li>
+        </ul>
+      </div>
+
+      <div class="code info-unit">
+        <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+        <hr>
+        <div class="weixin">
+          <img src="static/image/wecha.jpeg" alt="">
+
+        </div>
+      </div>
+      <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+        <h3>请输入图片URL地址：</h3>
+        <br/>
+        <input type="text" id="weixin-url">
+        <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="education info-unit right-list">
+        <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+        <hr>
+        <ul class="experience-list">
+          <li>
+            <h3>南京大学 - 电子与通信工程（硕士）2013-2016</h3>
+            <p>
+              从事计算机视觉方向的相关研究，主要涉及图像分割、特征提取、模式识别
+            </p>
+          </li>
+          <li>
+            <h3>枣庄学院 - 电子信息工程（本科）2008-2012</h3>
+            <p>
+              学习等电路系统相关知识，主要涉及单片机、ARM相关电子线路编程
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="work info-unit right-list">
+        <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作及实习经历</span></h2>
+        <hr>
+        <div class="experience-list">
+          <h3><span class="bank1"></span ><span>招银网络科技有限公司（2016.07-至今 全职）</span></h3>
+          <ul class="exp">
+            <li>
+              <div class="circle"></div>
+              <h4>移动端同业CRM系统(Ionic3、Angular4)</h4>
+              <p>该系统主要面向招商银行经常出差拜访客户的同业客户经理，主要用于查看客户的多项资产负债数据以及拜访客户后日志编写和管理等</p>
+              <p>负责移动端web框架的选型和搭建，采用了angular4+ionic3的前端框架组合，参与需求分析和相关技术难点的解决，页面采用懒加载机制，对首屏加载进行优化</p>
+            </li>
+            <li>
+              <div class="circle"></div>
+              <h4>PC端批发CRM系统(Jquery)</h4>
+              <p>该系统主要面向招商银行管理大量客户的批发客户经理，主要用于客户及客群业务数据展示和报表统计以及数据权限的控制</p>
+              <p>负责PC端业务需求开发，解决IE、Chrome和Firefox浏览器兼容问题以及跨域访问页面等相关技术难点</p>
+            </li>
+          </ul>
+          <h3><span class="bank2"></span ><span>淘宝（中国）软件有限公司（2015.06-2015.08 实习）</span></h3>
+          <ul class="exp">
+            <li>
+              <div class="circle"></div>
+              <h4>手机淘宝有好货推荐方案（Java、Python）</h4>
+              <p>该方案定位于手机淘宝的一个中高端消费档次的推荐场景，场景中推荐方案包括有好货首图、精选、兴趣、详情和我赞过等多个模块，方案中采用了离线U2I、实时I2I、以及热门抄底数据进行组合推荐</p>
+              <p>参与推荐方案的测试工作，完成方案的代码评审、功能测试、验收测试、效果测试、性能测试和前端连调测试，保证推荐方案的正确性和合理性，快速完成推荐方案的迭代更新</p>
+            </li>
+          </ul>
+          <h3><span class="bank3"></span ><span>南京汇川工业视觉技术开发有限公司（2013.10-2015.05 实习）</span></h3>
+          <ul class="exp">
+            <li>
+              <div class="circle"></div>
+              <h4>瓶体喷码字符识别项目(Linux、C++、OpenCV) </h4>
+              <p>该系统主要应用灌装油生产环境下的喷码机对每个瓶体的所产生的生产日期和出口国家等字符的检测，主要涉及到前、背面打光不同的打光方式字体影像的差异化处理，以及从拍摄图像中分割出单个字体并应用机器学习等知识对单个字体进行识别</p>
+              <p>参与系统功能模块，负责精确分割出单个字体并对单个字体进行多样本提取特征利用支持向量机的模型对其进行识别</p>
+            </li>
+          </ul>
+        </div>
+        <div class="aboutme info-unit right-paragraph">
+          <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+          <hr>
+          <p>
+            性格开朗稳重，待人热情坦诚，工作认真负责，能够吃苦耐劳，有较强的动手能力和团体协作精神，能迅速的适应各种环境并融合其中
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
